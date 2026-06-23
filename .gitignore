@@ -1,0 +1,11 @@
+# 编译生成的文件
+program
+*.o
+/build/
+**/build/
+/.vs/
+/.idea/
+/cmake-build-debug/
+
+# Linux
+~
