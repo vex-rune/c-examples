@@ -121,4 +121,16 @@ void my_practice(void) {
     int *p_3 = NULL; // 指针 NULL，指向任何地址， 会随机指向一个地址
     printf("  p_3 的地址: %p\n", p_3);
     printf("\n");
+
+    // ========================================
+    // 第9部分：二级指针
+    // ========================================
+    int n = 10;
+    int *p_n = &n;
+    int **pp_n = &p_n;
+
+    printf("  n 的地址: %p\n", &n);
+    printf("  p_n 的地址: %p\n", p_n);
+    printf("  pp_n 的地址: %p\n", pp_n);
+    printf("\n");
 }
