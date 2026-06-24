@@ -29,6 +29,9 @@ void demo_io(void);          // 声明：这是一个返回void的函数
 void demo_binary(void);      // 声明：这是一个返回void的函数
 void demo_array(void);      // 声明：这是一个返回void的函数
 void demo_memory(void);     // 声明：这是一个返回void的函数
+void my_practice(void);     // 声明：这是一个返回void的函数
+
+
 
 // 主函数 - 程序入口
 int main(void) {
@@ -37,16 +40,17 @@ int main(void) {
     printf("========================================\n\n");
 
     // 依次运行各个演示（按文件顺序）
-    demo_variables();    // 01_变量
-    demo_constants();    // 02_常量
-    demo_operators();   // 03_运算符
-    demo_printf();      // 04_printf
-    demo_statements();   // 05_语句
-    demo_functions();    // 06_函数
-    demo_io();          // 07_io 输入输出
-    demo_binary();      // 08_binary 二进制
-    demo_array();      // 09_数组
-    demo_memory();     // 10_内存管理
+    // demo_variables();    // 01_变量
+    // demo_constants();    // 02_常量
+    // demo_operators();   // 03_运算符
+    // demo_printf();      // 04_printf
+    // demo_statements();   // 05_语句
+    // demo_functions();    // 06_函数
+    // demo_io();          // 07_io 输入输出
+    // demo_binary();      // 08_binary 二进制
+    // demo_array();      // 09_数组
+    // demo_memory();     // 10_内存管理
+    my_practice();     // 练习
 
     printf("========================================\n");
     printf("          程序执行完毕\n");
@@ -54,3 +58,5 @@ int main(void) {
 
     return 0;
 }
+
+
