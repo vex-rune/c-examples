@@ -11,3 +11,5 @@ add_compile_options(-Wall -Wextra)
 # 启用子项目
 add_subdirectory(c-base)
 add_subdirectory(c-pointer)
+add_subdirectory(c-struct)
+

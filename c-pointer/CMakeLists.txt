@@ -6,7 +6,8 @@ project(CPointer C)
 file(GLOB SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/*.c")
 
 # 可执行文件
-add_executable(c_pointer ${SOURCES})
+add_executable(c_pointer ${SOURCES}
+        ../c-struct/src/main.c)
 
 # 头文件目录
 target_include_directories(c_pointer PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
