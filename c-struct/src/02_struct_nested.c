@@ -84,8 +84,12 @@ void demo_struct_nested(void) {
     // ========================================
     printf("【第2步】顺序初始化\n\n");
     
-    // 按定义顺序依次赋值
-    struct Person p2 = {"Qing", "Luo", FEMALE, "Google", 10000};
+    // 按定义顺序依次赋值（嵌套结构体需要大括号包裹）
+    struct Person p2 = {
+        {"Qing", "Luo"},  // name
+        FEMALE,           // gender
+        {"Google", 10000} // company
+    };
     
     printf("  struct Person p2 = {\"Qing\", \"Luo\", FEMALE, \"Google\", 10000};\n");
     printf("  p2.name.first = %s\n", p2.name.first);

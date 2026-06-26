@@ -4,6 +4,8 @@
 void demo_struct_basic(void);
 void demo_struct_nested(void);
 void demo_struct_self_ref(void);
+void demo_struct_pointer(void);
+void demo_struct_union(void);
 
 // 主函数
 int main(void) {
@@ -17,6 +19,7 @@ int main(void) {
     demo_struct_nested();
     demo_struct_self_ref();
     demo_struct_pointer();
+    demo_struct_union();
 
     printf("############################################\n");
     printf("#            程序执行完毕                   #\n");

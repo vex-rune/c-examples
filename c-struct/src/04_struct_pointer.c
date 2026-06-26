@@ -30,7 +30,7 @@ struct Student {
 };
 
 // 打印学生信息
-void print_student(struct Student *s) {
+void print_student2(struct Student *s) {
     printf("  ID=%d, Name=%s, Gender=%c, Score=%.1f, GPA=%.2f\n", 
            s->id, s->name, s->gender, s->score, s->gpa);
     if (s->grades != NULL) {
@@ -136,7 +136,7 @@ void demo_struct_pointer(void) {
     stu.best_friend = NULL;
     
     printf("  创建学生:\n");
-    print_student(&stu);
+    print_student2(&stu);
     printf("\n");
     
     free(stu.grades);
